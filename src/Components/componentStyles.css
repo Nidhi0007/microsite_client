@@ -1,0 +1,138 @@
+.card-left {
+  background: #a16c15;
+  padding: 15px;
+  color: white;
+  border-radius: 11px 11px 11px 11px;
+  margin: 12px 0px 12px 0px;
+}
+.image-block.col-md-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.image-block .feature-icon {
+  width: 60px !important;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  height: 60px !important;
+  /* line-height: 70px; */
+
+  position: relative;
+  padding: 7px;
+}
+.modules-icon {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+}
+.card-left .content-block {
+  text-align: initial;
+}
+.card-left .content-block .card-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.right-description {
+  line-height: 1.3em;
+  font-size: 19px;
+  font-weight: 500;
+}
+.right-image {
+  width: 100%;
+}
+.button-section {
+  margin-top: 20px;
+}
+button.btn.btn-primary.btn-block.btn-lg {
+  padding: 16px;
+  border-radius: 7px;
+  background-image: linear-gradient(135deg, #7b56ee, #f2468c 94%);
+  box-shadow: 0 12px 60px 0 rgb(0 0 0 / 20%);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+button.btn.btn-primary.btn-lg.button-animation {
+  outline: none;
+  content: "";
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  margin: 20px;
+  background-size: 300% 300%;
+  animation: animatedgradient 3s ease infinite alternate;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  border: none;
+}
+.button-animation:focus {
+  border: none;
+}
+.button-animation:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+@keyframes animatedgradient {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+/* question section */
+.que-heading {
+  padding: 56px;
+}
+.question-section {
+  max-width: 100%;
+  width: 80%;
+  margin: auto;
+
+  position: relative;
+  text-align: center;
+  display: table;
+}
+.question-section .que-icon {
+  width: 32px;
+  display: table-cell;
+  line-height: 0;
+}
+.question-section .que-icon .que-img {
+  display: block;
+  margin: auto;
+}
+.question-section .content-que {
+  text-align: left;
+}
+.carousel-section {
+  margin: 36px 0px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .card-left .content-block .card-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .right-description {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,140 @@
+.top-entry {
+  max-width: 100%;
+  width: 80%;
+  margin: auto;
+}
+.top-entry .heading {
+  font-weight: 900;
+  padding: 50px;
+}
+.all-books-heading {
+  padding: 56px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center .allbooks-col {
+  max-width: 60%;
+}
+
+/* mid section */
+.mid {
+  display: flex;
+  background: #eceaea;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20px; */
+  padding: 20px;
+}
+.mid .tile {
+  align-items: center;
+  padding: 32px;
+  width: 400px;
+}
+.mid .tile .desc {
+  width: auto;
+  height: 200px;
+  padding: 20px;
+}
+
+/* mid four */
+
+.mid-four {
+  background: rgb(238, 218, 180);
+  padding: 56px;
+}
+.mid-four .four-tile {
+  padding: 56px;
+}
+.mid-four .four-tile .tile-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.lottie-size {
+  max-width: 400px;
+  height: 30vh;
+}
+.cGKbZh:hover:enabled,
+.cGKbZh:focus:enabled {
+  color: #fff;
+  background-color: #6a3e0e !important;
+  box-shadow: 0 0 2px 0 #b3987b !important;
+}
+.ejXxNI {
+  background-color: #6a3e0e !important;
+  box-shadow: 0 0 2px 0 #b3987b !important;
+}
+@media only screen and (max-width: 1400px) {
+  h4 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .mid {
+    display: grid;
+    background: #eceaea;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px; */
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .top-entry .section1 {
+    flex-direction: column-reverse;
+  }
+
+  .allbooks-row.row {
+    display: grid;
+  }
+  .center .allbooks-col {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 770px) {
+  .mid-four .four-tile {
+    padding: 0px;
+    display: grid;
+  }
+  .mid-four .four-tile .col {
+    padding: 36px;
+  }
+  .center .allbooks-col {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .top-entry .heading {
+    font-weight: 700;
+    padding: 50px 20px;
+    font-size: 23px;
+  }
+
+  .right-description {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  button.btn.btn-primary.btn-lg.button-animation {
+    margin: 0px;
+  }
+  .h4,
+  h4 {
+    font-size: 14px !important;
+  }
+  h2 {
+    font-size: 16px !important;
+  }
+}
