@@ -11,8 +11,8 @@ function ImagePanel({ data }) {
       <div className="button-section">
         <h4>Lifetime Unlimited access to {data.num} Book Bundle!</h4>
 
-        {/*  <Stripe data={data} />*/}
-        <RazorPay data={data} />
+        <Stripe data={data} />
+        {/*     <RazorPay data={data} />*/}
 
         <p>What’s in the Bundle: {data.bundle}</p>
       </div>
