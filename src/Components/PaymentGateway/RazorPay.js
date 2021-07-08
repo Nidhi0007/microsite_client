@@ -29,7 +29,7 @@ function RazorPay({ data }) {
     const details = await Axios.post(
       `${process.env.REACT_APP_SERVER}/payment/razorpay`,
       {
-        amount: data.actualAmount,
+        amount: 1,
         productName: `${data.num} book bundle`,
       }
     ).then((response) => response.data);
