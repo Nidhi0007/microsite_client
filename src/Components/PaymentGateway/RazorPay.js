@@ -38,7 +38,7 @@ function RazorPay({ data }) {
       key: process.env.REACT_APP_RAZORPAY_KEY,
       currency: details.currency,
       amount: details.amount.toString(),
-      order_id: details.id,
+      // order_id: details.id,
       name: "Buy now",
 
       handler: function (response) {
