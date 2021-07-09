@@ -33,24 +33,14 @@ function RazorPay({ data }) {
         productName: `${data.num} book bundle`,
       }
     ).then((response) => response.data);
-
     const options = {
       key: process.env.REACT_APP_RAZORPAY_KEY,
       currency: details.currency,
       amount: details.amount.toString(),
-      // order_id: details.id,
+      order_id: details.id,
       name: "Buy now",
-
-      handler: function (response) {
-        if (
-          response.razorpay_payment_id &&
-          response.razorpay_order_id &&
-          response.razorpay_signature
-        ) {
-          console.log("success");
-        }
-      },
     };
+    console.log("options", options);
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   }
