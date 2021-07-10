@@ -39,6 +39,8 @@ function RazorPay({ data }) {
       amount: details.amount.toString(),
       order_id: details.id,
       name: "Buy now",
+      callback_url: "https://www.members.perform.digital/login",
+      redirect: true,
     };
 
     const paymentObject = new window.Razorpay(options);
