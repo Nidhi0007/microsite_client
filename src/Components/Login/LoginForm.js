@@ -4,7 +4,7 @@ import { TextField } from "./TextField";
 import * as Yup from "yup";
 import { useHistory } from "react-router-dom";
 import Axios from "axios";
-import axios from "axios";
+
 import swal from "sweetalert2";
 axios.defaults.withCredentials = true;
 export const LoginForm = (props) => {

@@ -40,7 +40,7 @@ function RazorPay({ data }) {
       order_id: details.id,
       name: "Buy now",
     };
-    console.log("options", options);
+
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   }

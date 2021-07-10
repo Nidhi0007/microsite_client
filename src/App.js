@@ -10,6 +10,13 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Main} />
+          <Route
+            path="/login"
+            component={() => {
+              window.location.href = "https://www.members.perform.digital/";
+              return null;
+            }}
+          />
         </Switch>
       </BrowserRouter>
     </>
