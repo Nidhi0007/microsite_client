@@ -1,0 +1,23 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0rem;
+  border-bottom: 1px solid #f1f2f4;
+}
+.center .heading-2 {
+  max-width: 42rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.card2.card {
+  box-shadow: 0 0 1px 0 rgb(8 11 14 / 6%), 0 16px 16px -1px rgb(8 11 14 / 10%);
+  border: 1px solid #f7f8f9;
+  border-radius: 12px;
+}
+@media (max-width: 767px) {
+  .card2.card {
+    margin: 2rem 2rem 0rem;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import Axios from "axios";
+import Swal from "sweetalert2";
 function loadScript(src) {
   return new Promise((resolve) => {
     const script = document.createElement("script");
@@ -39,8 +40,17 @@ function RazorPay({ data }) {
       amount: details.amount.toString(),
       order_id: details.id,
       name: "Buy now",
-      callback_url: "https://www.members.perform.digital/login",
+      callback_url: `https://www.members.perform.digital/login?payment=true`,
       redirect: true,
+      handler: function (response) {
+        if (
+          response.razorpay_payment_id &&
+          response.razorpay_order_id &&
+          response.razorpay_signature
+        ) {
+          console.log("success");
+        }
+      },
     };
 
     const paymentObject = new window.Razorpay(options);

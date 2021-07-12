@@ -1,0 +1,27 @@
+.gray-section {
+  border-radius: 56px;
+  background: #f7f8f9;
+  padding: 4rem 3.5rem;
+  margin: 6rem 0;
+}
+
+.dcb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dcb .notifies-button {
+  border-radius: 20px;
+  align-items: flex-end;
+}
+@media (max-width: 992px) {
+  .dcb {
+    display: block;
+  }
+  .container.bottom {
+    max-width: 100%;
+  }
+  .gray-section {
+    border-radius: 0px;
+  }
+}

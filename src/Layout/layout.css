@@ -6,9 +6,11 @@
 .top-entry .heading {
   font-weight: 900;
   padding: 50px;
+  color: #6a3e0e !important;
 }
 .all-books-heading {
   padding: 56px;
+  color: #6a3e0e !important;
 }
 .center {
   display: flex;
