@@ -4,7 +4,7 @@ import "./centeredCard.css";
 function CenteredCard() {
   return (
     <Container>
-      <div className="center">
+      <div className="centered">
         <h3 className="heading-2">
           A combination of tools to design and develop modern applications at
           ease.

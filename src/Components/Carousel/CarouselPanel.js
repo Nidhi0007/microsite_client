@@ -25,8 +25,8 @@ function CarouselPanel({ data }) {
               width="120px"
               title="Deep Work"
               src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=pdigital-21&marketplace=amazon&amp;region=IN&placement=B08WXBRZR1&asins=B08WXBRZR1&linkId=ab58f93a166b85099c1e3cba27dcfd71&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"
-            />
-            <h6 className="text-book-name">Deep Work</h6>
+            />{" "}
+            <h6 className="text-book-name">Deep Work</h6>{" "}
           </div>
           <div>
             <iframe
