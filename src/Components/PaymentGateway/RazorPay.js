@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import Axios from "axios";
 import Swal from "sweetalert2";
+import GAEventTracker from "../../hoc/GAEventTracker";
+const gaTrack = GAEventTracker("Buy");
 function loadScript(src) {
   return new Promise((resolve) => {
     const script = document.createElement("script");
@@ -18,6 +20,7 @@ function loadScript(src) {
 // const __DEV__ = document.domain === "localhost";
 function RazorPay({ data }) {
   async function displayRazorpay() {
+    gaTrack(`Buy ${data.num} books clicked`);
     const res = await loadScript(
       "https://checkout.razorpay.com/v1/checkout.js"
     );
