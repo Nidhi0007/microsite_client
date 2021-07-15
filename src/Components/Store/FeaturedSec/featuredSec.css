@@ -1,0 +1,19 @@
+.js-row.row {
+  margin: 4rem 1rem;
+  border-bottom: 1px solid #f1f2f4;
+}
+.json-templ {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.left-head {
+  max-width: 32rem;
+  margin: 3rem 0rem;
+}
+.feature-tech {
+  margin-bottom: 3rem;
+}
+.feature-tech .left-fet-head {
+  padding: 1.4rem 0rem 0.4rem 0rem;
+}

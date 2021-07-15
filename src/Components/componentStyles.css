@@ -47,7 +47,7 @@
 .button-section {
   margin-top: 20px;
 }
-button.btn.btn-primary.btn-block.btn-lg {
+button.btn.btn-primary.btn-block.btn-lg.button-animation {
   padding: 16px;
   border-radius: 7px;
   background-image: linear-gradient(135deg, #7b56ee, #f2468c 94%);
