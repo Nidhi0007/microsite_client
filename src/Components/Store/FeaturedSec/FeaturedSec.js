@@ -16,42 +16,42 @@ function FeaturedSec() {
         <Row>
           <Col lg={4} md={6} xs={6}>
             <div className="feature-tech">
-              <Image width="40px" src="/store/Images.png" />
+              <Image width="40px" src="/store/images.png" />
               <h4 className="left-fet-head">Atomic</h4>
               <p>Based on Atomic Design Methodology.</p>
             </div>
           </Col>
           <Col lg={4} md={6} xs={6}>
             <div className="feature-tech">
-              <Image width="40px" src="/store/Images.png" />
+              <Image width="40px" src="/store/images.png" />
               <h4 className="left-fet-head">Atomic</h4>
               <p>Based on Atomic Design Methodology.</p>
             </div>
           </Col>
           <Col lg={4} md={6} xs={6}>
             <div className="feature-tech">
-              <Image width="40px" src="/store/Images.png" />
+              <Image width="40px" src="/store/images.png" />
               <h4 className="left-fet-head">Atomic</h4>
               <p>Based on Atomic Design Methodology.</p>
             </div>
           </Col>
           <Col lg={4} md={6} xs={6}>
             <div className="feature-tech">
-              <Image width="40px" src="/store/Images.png" />
+              <Image width="40px" src="/store/images.png" />
               <h4 className="left-fet-head">Atomic</h4>
               <p>Based on Atomic Design Methodology.</p>
             </div>
           </Col>
           <Col lg={4} md={6} xs={6}>
             <div className="feature-tech">
-              <Image width="40px" src="/store/Images.png" />
+              <Image width="40px" src="/store/images.png" />
               <h4 className="left-fet-head">Atomic</h4>
               <p>Based on Atomic Design Methodology.</p>
             </div>
           </Col>
           <Col lg={4} md={6} xs={6}>
             <div className="feature-tech">
-              <Image width="40px" src="/store/Images.png" />
+              <Image width="40px" src="/store/images.png" />
               <h4 className="left-fet-head">Atomic</h4>
               <p>Based on Atomic Design Methodology.</p>
             </div>
