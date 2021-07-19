@@ -25,12 +25,10 @@ function CenteredCard() {
           <Col md={6} sm={12}>
             <Card className="card2">
               <Card.Body>
-                <Card.Title>Development</Card.Title>
+                <Card.Title>Appointment</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-                <Card.Text>
-                  Design your website by using Atomize for Sketch App.
-                </Card.Text>
-                <Card.Link href="#">Visit Store</Card.Link>
+                <Card.Text>Create you appointment</Card.Text>
+                <Card.Link href="/schedule">Visit Store</Card.Link>
               </Card.Body>
             </Card>
           </Col>

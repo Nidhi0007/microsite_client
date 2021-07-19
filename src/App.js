@@ -26,6 +26,13 @@ function App() {
               return null;
             }}
           />
+          <Route
+            path="/schedule"
+            component={() => {
+              window.location.href = "http://13.233.148.44:3000/";
+              return null;
+            }}
+          />
         </Switch>
       </BrowserRouter>
     </>
