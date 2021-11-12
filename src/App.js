@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./Layout/Main";
-import Store from "./Layout/Store";
+
 import ReactGA from "react-ga";
 // Initializing GA and Tracking Pageviews
 
